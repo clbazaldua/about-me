@@ -1,10 +1,58 @@
 body {
-font-family: "Helvetica", sans-serif;
+font-family: "Arial", sans-serif;
+background-color: #FFC0CB
+
 }
 h2 {
-color: #7A0019;
+color: #000000;
+
 }
 #contact {
-background-color: #FFDE7A;
+background-color: #000000;
+padding: 2%;
+}
+
+.about-menu {
+list-style: none;
+display: flex; 
+gap: 20px;
+justify-content: center;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.about-menu a {
+background-color: black;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+}
+
+.about-menu a:hover {
+background-color: #FFC0CB;
+color: black;
+}
+
+.center-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+margin-top: 10px;
+font-weight: bold;
+}
+
+#te {
+background-color: #000000;
+color: white;
 padding: 2%;
 }
