@@ -56,3 +56,10 @@ background-color: #000000;
 color: white;
 padding: 2%;
 }
+
+.logo {
+display: block;
+margin: 0 auto;
+width: 300px;
+border: 2px solid black;
+}
